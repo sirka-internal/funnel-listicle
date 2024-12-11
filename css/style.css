@@ -554,32 +554,11 @@ body {
 }
 
 /* Media Query for Mobile */
-@media (max-width: 390px) {
-  .container {
-    width: 100%;
-  }
-
-  .hero-title {
-    font-size: 16px;
-  }
-
-  .btn-primary,
-  .btn-secondary {
-    padding: 8px 15px;
-    font-size: 12px;
-  }
-
-  .feature-title {
-    font-size: 14px;
-  }
-
+@media (max-width: 1439px) {
   .product-list:not(:first-child) {
     margin-top: 83.4px;
   }
 
-  .footer-title {
-    font-size: 16px;
-  }
 }
 
 /* Media Query for Desktop (1440px) */
@@ -891,10 +870,6 @@ body {
   .product-icon {
     width: 62px;
     height: 62px;
-  }
-
-  .product-list:not(:first-child) {
-    margin-top: 66.85px;
   }
 
   .product-list {
